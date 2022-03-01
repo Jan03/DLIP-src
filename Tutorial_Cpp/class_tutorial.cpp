@@ -20,5 +20,9 @@ int main()
 	std::cout << "row of src :" << src.rows << std::endl;
 	std::cout << "col of src :" << src.cols << std::endl;
 	std::cout << "type of src:" << src.type() << std::endl;
+	
+	cv::imshow("src", src);
+	
+	cv::waitKey(0);
 
 }
